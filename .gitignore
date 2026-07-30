@@ -5,4 +5,11 @@ vectorstore
 env/
 .venv/
 
+venv/
+__pycache__/
+temp_files/*
+!temp_files/.gitkeep
+.env
+rag/vectorstore/
+*.pyc
 
