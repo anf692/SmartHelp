@@ -5,27 +5,27 @@ BASE DE CONNAISSANCES INTERNE - POLITIQUE DE SUPPORT ET DE RETOUR (SMARTHELP)
 [DOCUMENT OFFICIEL - USAGE INTERNE ET AUTOMATISATION RAG]
 
 ---
-SECTION 1 : PRODUITS ENDOMMAGÃ‰S OU CASSÃ‰S Ã€ LA LIVRAISON
+SECTION 1 : PRODUITS ENDOMMAGÉS OU CASSÉS À LA LIVRAISON
 ---
-- RÃ¨gle 1.1 (Casse / Dommage visible) : Si le client signale un produit cassÃ©, fissurÃ© ou endommagÃ©, et fournit une photo probante de l'article dans un dÃ©lai de 48 heures suivant la rÃ©ception, le dossier est Ã©ligible Ã  un remboursement intÃ©gral ou Ã  un renvoi gratuit. Statut associÃ© : "Remboursable".
-- RÃ¨gle 1.2 (DÃ©lai dÃ©passÃ©) : Si la rÃ©clamation pour produit cassÃ© est faite aprÃ¨s un dÃ©lai de 48 heures, la demande est soumise Ã  validation manuelle du manager. Statut associÃ© : "Ã€ vÃ©rifier".
+- Règle 1.1 (Casse / Dommage visible) : Si le client signale un produit cassé, fissuré ou endommagé, et fournit une photo probante de l'article dans un délai de 48 heures suivant la réception, le dossier est éligible à un remboursement intégral ou à un renvoi gratuit. Statut associé : "Remboursable".
+- Règle 1.2 (Délai dépassé) : Si la réclamation pour produit cassé est faite après un délai de 48 heures, la demande est soumise à validation manuelle du manager. Statut associé : "À vérifier".
 
 ---
-SECTION 2 : ERREURS DE LIVRAISON ET NON-CONFORMITÃ‰ DE COMMANDE
+SECTION 2 : ERREURS DE LIVRAISON ET NON-CONFORMITÉ DE COMMANDE
 ---
-- RÃ¨gle 2.1 (Mauvais article reÃ§u) : Si le produit reÃ§u ne correspond pas en termes de modÃ¨le, de couleur ou de taille par rapport Ã  la commande initiale, l'Ã©change est entiÃ¨rement pris en charge par l'entreprise (frais de retour offerts). Statut associÃ© : "Ã‰change gratuit".
-- RÃ¨gle 2.2 (PiÃ¨ce manquante) : Si un accessoire ou une piÃ¨ce d'un kit est manquant Ã  la rÃ©ception, l'entreprise s'engage Ã  expÃ©dier uniquement la piÃ¨ce manquante sous 3 jours ouvrÃ©s. Statut associÃ© : "ExpÃ©dition de piÃ¨ce".
+- Règle 2.1 (Mauvais article reçu) : Si le produit reçu ne correspond pas en termes de modèle, de couleur ou de taille par rapport à la commande initiale, l'échange est entièrement pris en charge par l'entreprise (frais de retour offerts). Statut associé : "Échange gratuit".
+- Règle 2.2 (Pièce manquante) : Si un accessoire ou une pièce d'un kit est manquant à la réception, l'entreprise s'engage à expédier uniquement la pièce manquante sous 3 jours ouvrés. Statut associé : "Expédition de pièce".
 
 ---
-SECTION 3 : RETARDS DE LIVRAISON ET PROBLÃˆMES LOGISTIQUES
+SECTION 3 : RETARDS DE LIVRAISON ET PROBLÈMES LOGISTIQUES
 ---
-- RÃ¨gle 3.1 (Retard mineur) : Un retard de livraison infÃ©rieur ou Ã©gal Ã  3 jours ouvrÃ©s par rapport Ã  la date estimÃ©e ne donne droit Ã  aucun dÃ©dommagement financier. Statut associÃ© : "Non remboursable - Retard mineur".
-- RÃ¨gle 3.2 (Retard majeur) : Un retard supÃ©rieur Ã  5 jours ouvrÃ©s donne droit Ã  un bon d'achat de 10% valable sur la prochaine commande. Statut associÃ© : "DÃ©dommagement 10%".
-- RÃ¨gle 3.3 (Colis perdu) : Si le statut du transporteur indique "BloquÃ©" ou "Perdu" depuis plus de 7 jours, un remboursement total est dÃ©clenchÃ© automatiquement aprÃ¨s enquÃªte transporteur. Statut associÃ© : "Remboursable - Colis perdu".
+- Règle 3.1 (Retard mineur) : Un retard de livraison inférieur ou égal à 3 jours ouvrés par rapport à la date estimée ne donne droit à aucun dédommagement financier. Statut associé : "Non remboursable - Retard mineur".
+- Règle 3.2 (Retard majeur) : Un retard supérieur à 5 jours ouvrés donne droit à un bon d'achat de 10% valable sur la prochaine commande. Statut associé : "Dédommagement 10%".
+- Règle 3.3 (Colis perdu) : Si le statut du transporteur indique "Bloqué" ou "Perdu" depuis plus de 7 jours, un remboursement total est déclenché automatiquement après enquête transporteur. Statut associé : "Remboursable - Colis perdu".
 
 ---
-SECTION 4 : RÃˆGLES GÃ‰NÃ‰RALES DE REFUS (HORS CADRE)
+SECTION 4 : RÈGLES GÉNÉRALES DE REFUS (HORS CADRE)
 ---
-- RÃ¨gle 4.1 (Usure normale / Mauvaise utilisation) : Si l'analyse visuelle ou la description audio montre que le dÃ©faut est dÃ» Ã  une mauvaise manipulation du client, Ã  une chute aprÃ¨s rÃ©ception ou Ã  une usure normale, la rÃ©clamation est rejetÃ©e. Statut associÃ© : "RefusÃ©".
-- RÃ¨gle 4.2 (Absence de preuve) : Toute rÃ©clamation concernant un produit endommagÃ© ou non conforme qui ne comporte ni photo probante ni description claire par message vocal sera mise en attente de piÃ¨ces complÃ©mentaires. Statut associÃ© : "En attente de justificatifs".
+- Règle 4.1 (Usure normale / Mauvaise utilisation) : Si l'analyse visuelle ou la description audio montre que le défaut est dû à une mauvaise manipulation du client, à une chute après réception ou à une usure normale, la réclamation est rejetée. Statut associé : "Refusé".
+- Règle 4.2 (Absence de preuve) : Toute réclamation concernant un produit endommagé ou non conforme qui ne comporte ni photo probante ni description claire par message vocal sera mise en attente de pièces complémentaires. Statut associé : "En attente de justificatifs".
 
