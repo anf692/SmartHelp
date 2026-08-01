@@ -28,7 +28,13 @@ async def creer_ticket_support(
     """
     texte_transcrit = None
     diagnostic_image = None
-    texte_pour_recherche = texte  # Par défaut, on utilise le texte fourni
+
+    # On nettoie le texte reçu : on retire les espaces en trop, et on ignore
+    # le mot "string" (valeur par défaut de Swagger si le champ n'est pas effacé)
+    texte_nettoye = texte.strip() if texte else None
+    if texte_nettoye == "string" or texte_nettoye == "":
+        texte_nettoye = None
+    texte_pour_recherche = texte_nettoye
 
     # 1. Traitement audio si fourni
     if audio is not None:
