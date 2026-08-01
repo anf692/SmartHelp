@@ -4,6 +4,7 @@ from fastapi import APIRouter, UploadFile, File, Form
 from typing import Optional
 
 from services.asr_service import transcrire_audio
+from services.validation_service import valider_et_ouvrir_image
 from services.vision_service import analyser_image
 from services.rag_service import creer_ou_charger_vectorstore, rechercher_regle_applicable
 from models.schemas import ReponseTicketSupport
@@ -50,7 +51,8 @@ async def creer_ticket_support(
     # 2. Traitement image si fournie
     if image is not None:
         bytes_image = await image.read()
-        diagnostic_image = analyser_image(bytes_image)
+        image_validee = valider_et_ouvrir_image(bytes_image)
+        diagnostic_image = analyser_image(image_validee)
 
     # 3. Recherche RAG si on a du texte (transcrit ou direct)
     regle_appliquee = None
