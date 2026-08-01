@@ -17,15 +17,12 @@ def charger_modele_vision():
     )
     return classificateur
 
-def analyser_image(bytes_image: bytes) -> dict:
+def analyser_image(image: Image.Image) -> dict:
     """
     Prend les bytes bruts d'une image (reçus depuis l'API) et retourne
     un diagnostic (label + score de confiance).
     """
     classificateur = charger_modele_vision()
-
-    # Conversion des bytes bruts en objet Image (Pillow)
-    image = Image.open(io.BytesIO(bytes_image)).convert("RGB")
 
     resultats = classificateur(image)
 

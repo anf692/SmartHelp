@@ -1,0 +1,5 @@
+MAX_FILE_SIZE_MB = 10
+
+EXTENSIONS_AUDIO_AUTORISEES = (".wav", ".mp3")
+EXTENSIONS_IMAGE_AUTORISEES = (".jpg", ".jpeg", ".png")
+
