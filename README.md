@@ -92,7 +92,7 @@ Aucun service payant n'est utilisé : l'ensemble du pipeline (ASR, Vision, RAG) 
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/<votre-compte>/SmartHelp.git
+git https://github.com/anf692/SmartHelp.git
 cd SmartHelp
 
 # 2. Créer et activer un environnement virtuel
