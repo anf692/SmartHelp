@@ -1,9 +1,6 @@
-# services/vision_service.py
-
 from functools import lru_cache
 from transformers import pipeline
 from PIL import Image
-import io
 
 @lru_cache()
 def charger_modele_vision():
