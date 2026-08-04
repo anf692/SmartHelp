@@ -22,7 +22,7 @@ def charger_et_decouper_document():
 
 def creer_ou_charger_vectorstore():
     """Crée la base vectorielle si elle n'existe pas, sinon la recharge sans dupliquer."""
-    modele_embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    modele_embeddings = HuggingFaceEmbeddings(model_name="paraphrase-multilingual-mpnet-base-v2")
 
     if os.path.exists(CHEMIN_VECTORSTORE) and os.listdir(CHEMIN_VECTORSTORE):
         # Le vectorstore existe déjà sur disque → on le recharge simplement

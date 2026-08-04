@@ -76,7 +76,7 @@ Cette organisation en couches sépare clairement :
 |---|---|---|
 | Transcription audio | `openai/whisper-small` | Bon compromis qualité/légèreté, gratuit, tourne en local (CPU) |
 | Classification d'image | `google/vit-base-patch16-224` | Modèle Vision Transformer pré-entraîné, gratuit, démontre le mécanisme de classification demandé par le brief |
-| Embeddings pour le RAG | `dangvantuan/sentence-camembert-base` | Modèle spécialisé français ; un premier essai avec `all-MiniLM-L6-v2` (modèle généraliste) donnait des correspondances sémantiques imprécises sur des formulations naturelles en français (voir section Difficultés rencontrées) |
+| Embeddings pour le RAG | `paraphrase-multilingual-mpnet-base-v2` | Modèle spécialisé français ; un premier essai avec `all-MiniLM-L6-v2` (modèle généraliste) donnait des correspondances sémantiques imprécises sur des formulations naturelles en français (voir section Difficultés rencontrées) |
 | Base vectorielle | Chroma | Simple à utiliser en local, persistance sur disque, pas de service externe payant |
 | Framework API | FastAPI | Gestion native de `multipart/form-data`, validation via Pydantic, documentation Swagger automatique |
 
